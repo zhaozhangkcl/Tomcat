@@ -1,0 +1,69 @@
+body {
+    background-color: #efefef;
+    letter-spacing: 0.5em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#page {
+    width: 900px;
+    margin: 11px, auto, 11px, auto;
+    padding: 20px;
+    border: 4px, double, white;
+    background-color: white;
+
+}
+
+ul{
+    padding: 15px;
+    width: 500px;
+    margin: 0px, auto, 0px, auto;
+    border-top: 2px dashed black;
+    border-bottom: 2px solid grey;
+}
+
+
+li {
+    display: inline;
+    margin: 0px, 3px;
+    padding: 2px;
+}
+
+#time {
+    color: green;
+    padding: 2px;
+    text-shadow: 2px, 2px;
+    font-weight: bold;
+    border: 2px double blue;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+a:link {
+    color: deeppink;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color:red;
+    cursor: pointer;
+}
+
+#logo {
+    width: 150px;
+    margin: 10px, auto;
+}
+
+.heading {
+  width:800px;
+  margin: 5px, auto, 5px, auto;
+  color:crimson;
+  padding:5px;
+  font-weight: Georgia, Times, serif;
+  letter-spacing: 0.3em;
+  font-size: 250%;
+  text-shadow: 2px, 2px, 3px, #666666;
+}
