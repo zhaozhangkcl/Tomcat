@@ -28,7 +28,24 @@ li {
     padding: 2px;
 }
 
+#time {
+    color: green;
+    padding: 2px;
+    text-shadow: 2px, 2px;
+    font-weight: bold;
+    border: 2px double blue;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
 
+a:link {
+    color: deeppink;
+}
+
+a:visited {
+    color: black;
+}
 
 a:hover {
     color:red;
@@ -38,4 +55,15 @@ a:hover {
 #logo {
     width: 150px;
     margin: 10px, auto;
+}
+
+.heading {
+  width:800px;
+  margin: 5px, auto, 5px, auto;
+  color:crimson;
+  padding:5px;
+  font-weight: Georgia, Times, serif;
+  letter-spacing: 0.3em;
+  font-size: 250%;
+  text-shadow: 2px, 2px, 3px, #666666;
 }
