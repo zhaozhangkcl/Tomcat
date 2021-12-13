@@ -1,0 +1,41 @@
+body {
+    background-color: #efefef;
+    letter-spacing: 0.5em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#page {
+    width: 900px;
+    margin: 11px, auto, 11px, auto;
+    padding: 20px;
+    border: 4px, double, white;
+    background-color: white;
+
+}
+
+ul{
+    padding: 15px;
+    width: 500px;
+    margin: 0px, auto, 0px, auto;
+    border-top: 2px dashed black;
+    border-bottom: 2px solid grey;
+}
+
+
+li {
+    display: inline;
+    margin: 0px, 3px;
+    padding: 2px;
+}
+
+
+
+a:hover {
+    color:red;
+    cursor: pointer;
+}
+
+#logo {
+    width: 150px;
+    margin: 10px, auto;
+}
